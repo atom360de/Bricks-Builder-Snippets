@@ -1,0 +1,24 @@
+/* side by side add to cart button */
+
+form.cart {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1em;
+}
+
+.single-product .summary form.cart .quantity+button {
+	margin-top: 0;
+}
+
+
+.woocommerce-variation-add-to-cart {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1em;
+}
+
+.woocommerce-variation-add-to-cart .quantity + .single_add_to_cart_button {
+	margin-top: 0;
+}
